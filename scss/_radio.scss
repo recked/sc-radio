@@ -1,0 +1,44 @@
+//Radio
+#radio {
+    margin: 0 auto;
+    width: 100%;
+}
+#controls {
+    font-size: 30px;
+}
+#play,
+#next,
+#stop {
+    display: inline;
+    cursor: pointer;
+}
+#pause,
+#prev {
+    display: none;
+    cursor: pointer;
+}
+#volume {
+    margin-left: 20px;
+    font-size: 30px;
+    display: none;
+}
+#track{
+    margin: 5px 0;
+}
+
+#dj {
+    margin-bottom: 10px;
+}
+#sc{
+    margin-top: 5px;
+    a{
+        color: $link;
+    }
+}
+#what{
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+#desc{
+    margin-bottom: 10px;
+}
